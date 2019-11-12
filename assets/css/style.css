@@ -90,3 +90,26 @@ button {
     border-radius: 3px;
 
 }
+
+.type {
+    float: left;
+    margin: 1em;
+    /*margin: 10px 400px 10px 0;*/
+}
+.type:nth-child(2) {
+    clear:left;
+}
+.type {
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #4aaaa5;
+    font-size: 20px;
+    color: #ffffff
+}
